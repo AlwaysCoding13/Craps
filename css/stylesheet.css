@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: grey;
+}
+
+#heading{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+
+#game-space{
+    display: grid;
+    background-color: black;
+    grid-template-columns: 80% 20%;
+    margin-left:100px;
+    margin-right:100px;
+    height: 800px;
+}
+
+#dice{
+    margin-left: 450px;
+    margin-top: 250px;
+}
+#dice p{
+    font-size: 200px;
+    color:white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.die{
+    display:inline-block;
+    border: 5px solid red;
+    border-radius: 8px;
+    width: 250px;
+    height: 250px;
+    margin-left: 10px
+}
+
+#roll button{
+    margin-top: 10px;
+    margin-left: 18px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(2, 39, 2);
+    color: white;
+    width: 500px;
+    height: 50px;
+}
+
+#btn-roll:active{
+    transform: scale(.95);
+}
+
+#scoreboard{
+    background-color: rgb(2, 39, 2);
+
+}
+
+#scoreboard p{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#betting{
+    display: inline;
+    margin-left: 95px;
+}
+
+#increase:active{
+    transform: scale(.95);
+}
+#decrease:active{
+    transform: scale(.95);
+}
+
+#betting button{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    color:red;
+    width: 100px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#reset{
+    margin-top: 210px;
+    margin-left: 220px;
+}
+
+#reset button{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: red;
+    width: 100px;
+    height: 50px;
+}
+
+#reset button:active{
+    transform: scale(.95);
+}
+
